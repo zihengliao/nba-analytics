@@ -1,0 +1,6 @@
+
+
+
+
+1. find the correlation between winning and each metric
+2. write blog that says basic stats arent a good indicator of impact on game

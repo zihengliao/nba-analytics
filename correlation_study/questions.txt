@@ -1,0 +1,10 @@
+
+the problem: 
+    - what impacts winning the most
+
+is there anything other than correlation i can look at
+with the correlations, i can visualise it with a log regression
+
+
+this is MVP in the team and who contributes to winning more in teh team
+    - but what does it mean to be MVP

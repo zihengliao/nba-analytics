@@ -1,0 +1,36 @@
+
+
+klay thompson and nikola jokic have the same logistic regression for game score vs prob of winning.
+    - does this mean that they have the same impact? - no.
+    - klays game scores are more sparse and on average lower
+
+
+luka missed out on 20 games. for him to have a 0.6% of winning, his required game score is less than klay and jokic
+    - or does this just mean he doesn't need a high game score to impact winning
+
+
+having a high chance of winning whilst having a low game score could also just mean ur getting carried
+    - for example, i consistently have a gamescore of 0 but still have a 50% chance of winning
+        - does that mean luka doesn't have that much of an impact (how does him missing 20 games influence this)
+
+the metri you should be looking at isnt the mean, it shoudl be how spread out the graph is
+    - imagine someone has high impact, what does that mean? the graph is more spread out (it's moore defined)
+        higher game scores will mean higher chance of winning, lower scores mean lower chance of winnign
+
+
+complications:
+- what does impact mean?
+- each player has a different logistic regression fitted to them... is that a problem?
+
+the purpose of using log regressoin is to see if there is a direct difference
+    - but this is where the correlatoin comes in. if its more correlated, the b1 coefficient term
+        will be bigger
+    - correlatoin will be different for each player
+
+
+
+
+im trying to make the conclusion that nikola deserves MVP over sga since his stats
+have a stronger correlation compared to sga
+
+as in, it's not just who has more points than each other, its the measure of how much this point impacts winning
