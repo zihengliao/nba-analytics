@@ -1,0 +1,25 @@
+
+scenario:
+last 3 minutes of the game. you're down 7. 
+- whats the strategy that gives you the best chance to catch up and win the game
+- do you jack up 3s that have a higher points per 100 possession but huge variance
+	or do u jack up 2s and hope for your opponents to miss
+- how do you model the offence and defence
+- could perhaps do a markov chain/matrix and run a monte carlo simulation
+- example could be:
+	1. jack up a 3:
+		2. miss:
+			3. offensive rebound
+			4 either jack up another 3 or go for a 2
+		5. hit:
+			possession ends and opposing teams ball
+	6. shoot a middy
+		7. miss
+		8. hit
+
+for something like this, you can only analyse a team since each team is so diff
+
+could take % of hitting a 3 or hitting a middy be % of what they do per field goal attempt
+
+each simulation run will have to be for what is possible in a span of 3 mins maybe,
+would probably have to take the average time per possession
